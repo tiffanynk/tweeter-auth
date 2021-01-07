@@ -1,0 +1,39 @@
+/* start styling with css below! */
+.new-tweet{
+  display: flex;
+  margin: 0 auto;
+  width: 600px;
+  padding: 20px;
+  border: 1px solid hsl(0, 0%, 90%);
+  align-items: center;
+}
+
+.new-tweet img{
+  width: 50px;
+}
+
+.right textarea{
+  border: none;
+  font-size: 20px;
+  margin-left: 10px;
+  width: 500px;
+  font-family: sans-serif;
+  resize: none;
+  overflow: auto;
+}
+
+.right textarea:focus{
+  outline: none;
+}
+
+.right button{
+  float: right;
+  width: 70px;
+  background: rgb(61, 167, 249);
+  padding: 10px 20px;
+  color: #fff;
+  padding: 10px;
+  border-radius: 16px;
+  border: none;
+  font-weight: 700;
+}
